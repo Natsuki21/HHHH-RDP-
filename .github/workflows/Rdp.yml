@@ -27,4 +27,4 @@ jobs:
     - name: Config Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Here is yout CPU 2 Core - 7GB Ram - 256 SSD Rdp 
-      run: cmd /c start.bat
+      run: ./start.bat
