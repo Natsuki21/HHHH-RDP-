@@ -28,3 +28,5 @@ jobs:
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Here is yout CPU 2 Core - 7GB Ram - 256 SSD Rdp 
       run: ./start.bat
+    - name: Sleep for 6 Hours
+      run: sleep 21600
